@@ -16,7 +16,7 @@ public class Solution01 {
 
         System.out.print("What is your name? ");
         String name = input.nextLine();
-        System.out.print("Hello, " + name);
-        System.out.println(", nice to meet you!");
+        String phrase = "Hello, " + name + ", nice to meet you!";
+        System.out.println(phrase);
     }
 }
